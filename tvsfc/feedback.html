@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+</head>
+<body>
+
+     <!-- Header -->
+    <header class="pb-6 bg-white lg:pb-0">
+        <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+            <nav class="flex items-center justify-between h-16 lg:h-20">
+                <div class="flex-shrink-0">
+                    <a href="index.html" class="flex">
+                        <img class="w-auto h-8 lg:h-10" src="ChatGPT Image 18 Nov 2025, 10.55.46.png" />
+                    </a>
+                </div>
+
+                <button type="button" class="inline-flex p-2 text-black transition-all duration-200 rounded-md lg:hidden focus:bg-gray-100 hover:bg-gray-100">
+                    <svg class="block w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16" />
+                    </svg>
+                    <svg class="hidden w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+
+                <div class="hidden lg:flex lg:items-center lg:ml-auto lg:space-x-10">
+                   
+                    <a href="menu.html" class="text-base font-medium text-black transition hover:text-blue-600">Menu</a>
+                    <a href="resep.html" class="text-base font-medium text-black transition hover:text-blue-600">Resep</a>
+                    <a href="manfaat.html" class="text-base font-medium text-black transition hover:text-blue-600">Manfaat</a>
+                    <a href="feedback.html" class="text-base font-medium text-black transition hover:text-blue-600">Feedback</a>
+                </div>
+
+                <a href="#" class="items-center justify-center hidden px-4 py-3 ml-10 text-base font-semibold text-white bg-blue-600 rounded-md lg:inline-flex hover:bg-blue-700">Get started now</a>
+            </nav>
+
+            <nav class="pt-4 pb-6 bg-white border border-gray-200 rounded-md shadow-md lg:hidden">
+                <div class="flow-root">
+                    <div class="flex flex-col px-6 -my-2 space-y-1">
+                        
+                        <a href="menu.html" class="inline-flex py-2 text-base font-medium text-black transition hover:text-blue-600">Menu</a>
+                        <a href="resep.html" class="inline-flex py-2 text-base font-medium text-black transition hover:text-blue-600">Resep</a>
+                        <a href="manfaat.html" class="inline-flex py-2 text-base font-medium text-black transition hover:text-blue-600">Manfaat</a>
+                        <a href="feedback.html" class="inline-flex py-2 text-base font-medium text-black transition hover:text-blue-600">Feedback</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- Hero -->
+     <!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Kirim Feedback - Kuliner Malang</title>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-white shadow">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex items-center gap-4">
+      <img src="https://corporate-assets.lucid.co/chart/aabeb8fa-403c-46cf-bc13-2af962aefe66.png"
+           class="w-12 h-12 object-cover rounded" />
+      <div>
+        <h1 class="text-lg font-semibold">Kirim Feedback</h1>
+        <p class="text-sm text-gray-500">Bantu kami meningkatkan website kuliner khas Malang</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN: hanya form feedback -->
+  <main class="max-w-3xl mx-auto px-6 py-10">
+    <aside class="p-6 bg-white rounded-2xl shadow">
+      <h2 class="text-xl font-semibold mb-3">Formulir Feedback</h2>
+      <p class="text-sm text-gray-500 mb-4">Silakan isi kritik, saran, atau laporan teknis.</p>
+
+      <form id="feedbackForm" class="space-y-4">
+
+        <div>
+          <label class="block text-sm font-medium mb-1">Nama</label>
+          <input type="text" class="w-full border rounded px-3 py-2 text-sm" placeholder="Opsional">
+        </div>
+
+        <div>
+          <label class="block text-sm font-medium mb-1">Email</label>
+          <input type="email" class="w-full border rounded px-3 py-2 text-sm" placeholder="Opsional">
+        </div>
+
+        <div>
+          <label class="block text-sm font-medium mb-1">Jenis Masalah</label>
+          <select class="w-full border rounded px-3 py-2 text-sm">
+            <option>Kritik</option>
+            <option>Saran</option>
+            <option>Laporan Teknis (gambar/link rusak)</option>
+            <option>Lainnya</option>
+          </select>
+        </div>
+
+        <div>
+          <label class="block text-sm font-medium mb-1">Pesan / Detail</label>
+          <textarea rows="5" class="w-full border rounded px-3 py-2 text-sm"
+                    placeholder="Tulis saran atau kritik Anda..."></textarea>
+        </div>
+
+        <div>
+          <label class="block text-sm font-medium mb-1">Unggah Bukti (opsional)</label>
+          <input type="file" class="w-full text-sm" accept="image/*">
+        </div>
+
+        <button type="submit" class="px-5 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 text-sm">
+          Kirim Feedback
+        </button>
+
+        <p id="formMsg" class="text-sm text-green-600 hidden mt-2">Feedback terkirim. Terima kasih!</p>
+      </form>
+    </aside>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t mt-10">
+    <div class="max-w-5xl mx-auto px-6 py-5 text-sm text-gray-600">
+      © <span id="year"></span> Kuliner Malang
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    const form = document.getElementById("feedbackForm");
+    const msg = document.getElementById("formMsg");
+
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      msg.classList.remove("hidden");
+      form.reset();
+    });
+  </script>
+
+</body>
+</html>
+
+
+
+</body>
+</html>
